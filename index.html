@@ -1,0 +1,61 @@
+<html>
+    <head>
+       <title>Collage Selfies</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="MyCollageFie.png">
+        
+        </a>
+        <h1 id = "header">Take collage selfies!
+            <img id="logo_img" src="logo_final.png">
+        </h1>
+        <hr>
+        <h4 style="color:red;">As soon as the popup appears, please click "ALLOW".</h4>
+        
+        <div class="form-group">
+            <h3 id ="one">Say "selfie" to proceed after clicking the button.</h3>
+            <label>Your voice output : </label>
+    <textarea class="form-control" id="text_box" readonly="true"></textarea>
+        </div>
+<button id = "start-btn"  onclick="start()">START</button>
+        <p>Press the Start button</p>
+
+        <label>Your webcam : </label>
+<div id="camera"></div>
+        <br>
+
+        <label>Your selifes will display as a collage here: </label>
+
+<div id="resultRow">
+    <div id="result_1">
+        <img src="pic_1.jpg" style="width:30%;">
+    </div>
+    
+    <div id="result_2">
+        <img src="pic_2.jpg" style="width:30%;">
+    </div>
+    
+    <div id="result_3">
+        <img src="pic_3.jpg" style="width:30%;">
+    </div>
+</div>
+    </center>
+    </div>
+    <div class="copy_right_footer">
+       <h1 id="dev"> Developer- Amyra Sharma</h1>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

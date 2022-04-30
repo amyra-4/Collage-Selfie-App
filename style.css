@@ -1,0 +1,49 @@
+#start-btn
+{
+    width: 40%;
+    color: black;
+    border-color: black;
+    background-color: rgb(185, 184, 184);
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+#header , #one{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: rgb(255, 251, 246);
+}
+img{
+    padding:10px;
+    box-shadow: 0 6px 8px 0 rgba(2,2,2,0.2)
+}
+#camera{
+    box-shadow: 0 6px 8px 0 rgba(2,2,2,0.2)
+}
+img:hover{
+    border-radius: 140px;
+}
+.copy_right_footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    font-family: 'Playfair Display', serif; 
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: antiquewhite;
+
+}
